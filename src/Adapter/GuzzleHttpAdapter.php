@@ -32,7 +32,7 @@ class GuzzleHttpAdapter implements AdapterInterface
     /**
      * @var Response|ResponseInterface
      */
-    protected $response;
+    public $response;
 
     /**
      * @param array                $token
@@ -41,7 +41,7 @@ class GuzzleHttpAdapter implements AdapterInterface
     public function __construct(array $options, ClientInterface $client = null)
     {
         if (\version_compare(ClientInterface::VERSION, '6') === 1) {
-            $this->client = $client ?: new Client();
+            $this->client = $client ?: new Client($options);
         } else {
             $this->client = $client ?: new Client();
             foreach ($options as $key => $option) {
