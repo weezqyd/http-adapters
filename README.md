@@ -46,25 +46,24 @@ $options = [
 // create an adapter with the options
 $adapter = new GuzzleAdapter($options);
 
-// create a vultr object with the previous adapter
+// make a get request with the adapter
 $response = $adapter->get('get?adappter=GuzzleAdapter');
 var_dump($response);
-
 /*
-	{
-		"args": {
-		    "adappter": "GuzzleAdapter"
-		  }, 
-		  "headers": {
-		    "headers": {
-			    "Authorization": "your access token",
-			    "X-Foo": "Bar",
-			    "Connection": "close", 
-			    "Host": "httpbin.org", 
-			    "User-Agent": "GuzzleHttp/6.2.1 curl/7.47.0 PHP/7.1.6"
-			  }, 
-		  "origin": "0.0.0.0", 
-		  "url": "https://httpbin.org/get?adappter=GuzzleAdapter"
-		}
+{
+	"args": {
+		 "adappter": "GuzzleAdapter"
+	}, 
+	"headers": {
+		 "headers": {
+			 "Authorization": "your access token",
+			 "X-Foo": "Bar",
+			 "Connection": "close", 
+			 "Host": "httpbin.org", 
+			 "User-Agent": "GuzzleHttp/6.2.1 curl/7.47.0 PHP/7.1.6"
+		}, 
+	"origin": "0.0.0.0", 
+	"url": "https://httpbin.org/get?adappter=GuzzleAdapter"
+}
  */
 ```
