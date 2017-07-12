@@ -11,12 +11,13 @@
     ],
     "require": {},
     "require-dev": {
-        "kriswallsmith/buzz"        : "~0.10",
-        "guzzlehttp/guzzle"         : "~5.0|~6.0",
-        "phpunit/phpunit"           : "~6.1",
+        "nategood/httpful":"*",
+        "kriswallsmith/buzz": "~0.10",
+        "guzzlehttp/guzzle": "~5.0|~6.0",
+        "phpunit/phpunit": "~6.1",
         "friendsofphp/php-cs-fixer" : "~1.11",
-        "mockery/mockery": "^0.9.9",
-        "codacy/coverage": "dev-master"
+        "mockery/mockery":"^0.9.9",
+        "codacy/coverage":"dev-master"
     },
     "autoload": {
         "psr-4": {

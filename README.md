@@ -12,9 +12,9 @@ $ composer require weezqyd/http-adapters
 
 You then need to install **one** of the following:
 ```bash
-$ php composer.phar require kriswallsmith/buzz:~0.10
-$ php composer.phar require guzzlehttp/guzzle:~5.0
-$ php composer.phar require guzzlehttp/guzzle:~6.0
+$ composer require kriswallsmith/buzz:~0.10
+$ composer require guzzlehttp/guzzle:~5.0
+$ composer require guzzlehttp/guzzle:~6.0
 ```
 
 GuzzleHttp Adapter

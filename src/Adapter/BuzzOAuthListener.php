@@ -23,14 +23,14 @@ class BuzzOAuthListener implements ListenerInterface
     /**
      * @var string
      */
-    protected $token;
+    protected $headers;
 
     /**
      * @param string $token
      */
-    public function __construct($token)
+    public function __construct(array $headers)
     {
-        $this->token = $token;
+        $this->headers = $heades;
     }
 
     /**
@@ -38,7 +38,9 @@ class BuzzOAuthListener implements ListenerInterface
      */
     public function preSend(RequestInterface $request)
     {
-        $request->addHeader(\sprintf('Authorization: Bearer %s', $this->token));
+        foreach ($this->headers as $key => $header) {
+            $request->addHeader("{$key}: $header");
+        }
     }
 
     /**
