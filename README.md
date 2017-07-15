@@ -20,7 +20,7 @@ $ composer require guzzlehttp/guzzle:~6.0
 GuzzleHttp Adapter
 ------------------
 
-If you use Guzzle, just pass an array of options to the constructor of `Http\Adapter\GuzzleAdapter`.
+If you use Guzzle, just pass an array of options to the constructor of `Http\Adapter\GuzzleHttpAdapter`.
 Please refer to [Guzzle Documentation](http://docs.guzzlephp.org/en/stable/request-options.html). for a full list of possible options
 
 Example
