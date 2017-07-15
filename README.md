@@ -1,7 +1,6 @@
 Http Adapters
 =============
 [![Build Status](https://travis-ci.org/weezqyd/http-adapters.svg?branch=master)](https://travis-ci.org/weezqyd/http-adapters)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/weezqyd/http-adapters/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/weezqyd/http-adapters/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/weezqyd/http-adapters/v/stable.svg)](https://packagist.org/packages/weezqyd/http-adapters) [![Total Downloads](https://poser.pugx.org/weezqyd/http-adapters/d/total)](https://packagist.org/packages/weezqyd/http-adapters) [![Latest Unstable Version](https://poser.pugx.org/weezqyd/http-adapters/v/unstable.svg)](https://packagist.org/packages/weezqyd/http-adapters) [![License](https://poser.pugx.org/weezqyd/http-adapters/license.svg)](https://packagist.org/packages/weezqyd/http-adapters)
 
 Installation
