@@ -31,7 +31,8 @@ Example
 
 require 'vendor/autoload.php';
 
-use Http\Adapter\GuzzleAdapter;
+use Http\Adapter\GuzzleHttpAdapter;
+
 $options = [
 	    // Base URI is used with relative requests
 	    'base_uri' => 'http://httpbin.org',
@@ -44,7 +45,7 @@ $options = [
 	    ]
 	];
 // create an adapter with the options
-$adapter = new GuzzleAdapter($options);
+$adapter = new GuzzleHttpAdapter($options);
 
 // make a get request with the adapter
 $response = $adapter->get('get?adappter=GuzzleAdapter');
