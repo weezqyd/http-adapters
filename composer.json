@@ -2,7 +2,7 @@
     "name": "weezqyd/http-adapters",
     "description": "Unified API for abstracting Various Http clients",
     "type": "library",
-    "license": "mit",
+    "license": "MIT",
     "authors": [
         {
             "name": "Master Weez",
